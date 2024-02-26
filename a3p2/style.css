@@ -6,6 +6,9 @@ html {
 div {
   width: 200px;
   margin: auto;
-  height: 400px;
+  height: 200px;
   font-size: 1rem;
   background-color: red;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
