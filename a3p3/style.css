@@ -43,3 +43,25 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: 'latin-modern';
+  src: url('fonts/latin-modern-roman/lmroman10-regular.otf');
+  src: url('fonts/latin-modern-roman/lmroman12-regular.otf') format('otf'),
+       url('fonts/latin-modern-roman/lmroman17-regular.otf') format('otf'),
+       url('fonts/latin-modern-roman/lmroman6-regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'antic';
+  src: url('fonts/antic/AnticDidone-Regular.otf');
+  src: url('fonts/antic/AnticSans-Regular.otf') format('opentype'),
+       url('fonts/antic/AnticSlab-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
