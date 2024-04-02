@@ -53,3 +53,20 @@ Ball.prototype.update = function() {
   this.x += this.velX;
   this.y += this.velY;
 }
+
+
+let balls = [];
+
+while (balls.length < 25) {
+  let size = random(20,25);
+  let ball = new Ball(
+    random(0 + size,width - size),
+    random(0 + size,height - size),
+    random(-7,7),
+    random(-7,7),
+    'rgb(' + random(0,255) + ',' + random(0,255) + ',' + random(0,255) +')',
+    size
+  );
+
+  balls.push(ball);
+}
